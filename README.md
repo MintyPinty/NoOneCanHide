@@ -19,7 +19,7 @@ Enter the correct region id inside of config.json.
  - PBE ( Beta Testers )
 
 ## Can I get banned?
-Maybe. Programs like this is against Riot TOS and MIGHT get you banned for API ABUSE. However, I have personally used this for OVER a year for 1000+ matches and have not gotten banned.
+Maybe. Programs like this is against Riot TOS and might get you banned for API abuse. However, I have personally used this for OVER a year for 1000+ matches and have not gotten banned.
 
 ## Credits
  - [Deadly's Streamer Yoinker](https://github.com/deadly/valorant-stream-yoinker)
