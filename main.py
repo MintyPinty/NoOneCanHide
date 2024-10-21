@@ -203,6 +203,10 @@ maps = {
         "display_name": "Piazza",
         "map_url": "/Game/Maps/HURM/HURM_Yard/HURM_Yard"
     },
+    "5914d1e0-40c4-cfdd-6b88-eba06347686c": {
+        "display_name": "The Range",
+        "map_url": "/Game/Maps/PovegliaV2/RangeV2"
+    }
 }
 
 def get_display_name_from_url(map_url):
@@ -266,6 +270,9 @@ def print_friend_presences(presences):
             partyOwnerMatchScoreAllyTeam = presence.get("partyOwnerMatchScoreAllyTeam", "")
             partyOwnerMatchScoreEnemyTeam = presence.get("partyOwnerMatchScoreEnemyTeam", "")
             queueId = presence.get("queueId", "").capitalize()
+            if queueId == "":
+                queueId = "Custom"
+                
             partyState = presence.get("partyState", "")
             state = presence.get("state", "")
             if partyState == "DEFAULT":
